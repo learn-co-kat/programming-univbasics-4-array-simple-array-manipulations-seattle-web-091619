@@ -34,12 +34,8 @@ def using_uniq (array)
   array.uniq 
 end 
 
-def using_flatten (instruments)
-  instruments.flatten
-end 
-
-def using_flatten (array, string)
-  array.delete(string)
+def using_flatten (array)
+  array.flatten
 end 
 
 
